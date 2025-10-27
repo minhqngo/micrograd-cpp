@@ -1,0 +1,1 @@
+A C++ port of Andrej Karpathy's [micrograd](https://github.com/karpathy/micrograd). This is an autograd engine that implements automatic differentiation for scalar and matrix operations, which is an extension over the original library by Karpathy (only for scalars).

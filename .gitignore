@@ -1,0 +1,40 @@
+# CLion IDE files
+.idea/
+cmake-build-*/
+
+# CMake build artifacts (can be redundant with cmake-build-*)
+# but good for explicit exclusion if build directories are named differently
+# or if you have global CMake build directories outside of the project root.
+build/
+bin/
+lib/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Other common ignored files
+*.user
+*.suo
+*.ncb
+*.aps
+*.pdb
+*.ilk
+*.ipch
+
+# Coverage data
+*.gcno
+*.gcda
+
+# Profiler output
+*.prof
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+.vscode/
